@@ -9,7 +9,7 @@ enum layer_names {
 
 #define RAISE MO(_RAISE)
 #define LOWER MO(_LOWER)
-#define ADJUST MO(_ADJUST)
+// #define ADJUST MO(_ADJUST)
 
 #define KC_CTA  MT(MOD_LCTL, KC_A)     // hold for Ctrl, tap for a
 #define KC_CTCL MT(MOD_LCTL, KC_SCLN)  // hold for Ctrl, tap for ;

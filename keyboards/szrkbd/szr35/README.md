@@ -1,5 +1,7 @@
 # SZR35 - A 36-Key Split Keyboard by SZRKBD
 
+forked from [https://github.com/milan-stoj/qmk_firmware/tree/szr35]
+
 ## Introduction
 
 The **SZR35** is a minimalist 36-key split keyboard designed by SZRKBD. It follows the popular 3x5+3 layout and is aimed at users who value ergonomic typing, portability, and open-source firmware flexibility. It ships with Vial-compatible firmware and is built around an STM32 microcontroller.

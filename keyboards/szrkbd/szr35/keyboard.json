@@ -1,9 +1,7 @@
 {
     "keyboard_name": "szr35",
-    "maintainer": "szrkbd",
-    "manufacturer": "szrkbd",
     "bootloader": "stm32-dfu",
-    "url": "https://github.com/foostan/crkbd",
+    "url": "https://example.com/szrkbd/szr35",
     "usb": {
         "pid": "0x45D4",
         "vid": "0x3601",
@@ -132,7 +130,7 @@
             "pixel_flow": false,
             "pixel_rain": false,
             "typing_heatmap": false,
-            "digital_rain": true,
+            "digital_rain": false,
             "solid_reactive_simple": true,
             "solid_reactive": true,
             "solid_reactive_wide": true,
@@ -141,10 +139,10 @@
             "solid_reactive_multicross": true,
             "solid_reactive_nexus": true,
             "solid_reactive_multinexus": true,
-            "splash": true,
-            "multisplash": true,
-            "solid_splash": true,
-            "solid_multisplash": true
+            "splash": false,
+            "multisplash": false,
+            "solid_splash": false,
+            "solid_multisplash": false
         }
     }
 }

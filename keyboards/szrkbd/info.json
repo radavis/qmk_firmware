@@ -1,0 +1,7 @@
+{
+  "manufacturer": "szrkbd",
+  "maintainer": "szrkbd",
+  "usb": {
+    "vid": "0x3601"
+  }
+}
