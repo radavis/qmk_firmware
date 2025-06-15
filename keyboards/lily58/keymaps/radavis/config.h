@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define QUICK_TAP_TERM 0
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200  // https://docs.qmk.fm/tap_hold#tap-hold-configuration-options
+#define QUICK_TAP_TERM 100  // https://docs.qmk.fm/tap_hold#quick-tap-term
 
 #define SPLIT_USB_DETECT
