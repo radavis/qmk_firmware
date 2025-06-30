@@ -1,2 +1,3 @@
 SERIAL_DRIVER = usart
 UARTENABLE = yes
+CAPS_WORD_ENABLE = yes
