@@ -1,0 +1,4 @@
+[{a:5},"`\nTAB\n\n\n\n\nQ",{a:4},"\n\n&\n\n\n\n\n\n7\nW\nF7","\n\n*\n\n\n\n\n\n8\nE\nF8",{a:5},"9\nF9\n\n\n\n\nR","*\nF12\n\n\n\n\nT",{x:1},"PRINT\n#\n\n\n\n\nY","HOME\n[\n\n\n\n\nU","PGDN\n]\n\n\n\n\nI","PGUP\n(\n\n\n\n\nO","END\n)\n\n\n\n\nP"],
+["CAPS\nCAPS\n\n\n\n\nA",{a:4},"\n\n$\n\n\n\n\n\n4\nS\nF4","\n\n%\n\n\n\n\n\n5\nD\nF5","\n\n^\n\n\n\n\n\n6\nF\nF6",{a:5},"+\nF11\n\n\n\n\nG",{x:1},"\n=\n\n\n\n\nH","←\n-\n\n\n\n\nJ","↓\n_\n\n\n\n\nK","↑\n\"\n\n\n\n\nL","→\n'\n\n\n\n\n;"],
+["CW\nDEL\n\n\n\n\nZ",{a:4},"\n\n!\n\n\n\n\n\n1\nX\nF1","\n\n@\n\n\n\n\n\n2\nC\nF2","\n\n#\n\n\n\n\n\n3\nV\nF3",{a:5},"-\nF10\n\n\n\n\nB",{x:1,a:7},"N",{a:5},"PASTE\n\n\n\n\n\nM","COPY\n\n\n\n\n\n,","CUT\n\n\n\n\n\n.","UNDO\n\\\n\n\n\n\n/"],
+[{x:2,a:7},"LGUI","LOWER",{a:5},"0\n\n\n\n\n\nSPACE",{x:1,a:7},"ENTER","RAISE",{a:5},"\nDEL\n\n\n\n\nBKSP"]
