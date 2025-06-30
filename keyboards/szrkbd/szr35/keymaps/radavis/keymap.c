@@ -4,10 +4,9 @@ enum layer_names {
     _QWERTY = 0,
     _LOWER,
     _RAISE,
-    // _ADJUST,
+    _ADJUST,
 };
 
-// tap-toggle layers
 #define RAISE TT(_RAISE)
 #define LOWER TT(_LOWER)
 
@@ -38,17 +37,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_RAISE] = LAYOUT_split_3x5_3(
     KC_GRV,  KC_7,    KC_8,    KC_9,    KC_ASTR,      KC_PSCR, KC_HOME, KC_PGDN, KC_PGUP, KC_END,
     KC_CAPS, KC_4,    KC_5,    KC_6,    KC_PLUS,      _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT,
-    CW_TOGG, KC_1,    KC_2,    KC_3,    KC_MINS,      _______, KC_PSTE, KC_COPY, KC_CUT,  KC_UNDO,
+    CW_TOGG, KC_1,    KC_2,    KC_3,    KC_MINS,      _______, C(KC_V), C(KC_C), C(KC_X), C(KC_Z),
                       _______, _______, KC_0,         _______, _______, _______
   ),
-  // [_ADJUST] = LAYOUT_split_3x5_3(
-  //   _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
-  //   _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
-  //   _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
-  //                     _______, _______, _______,      _______, _______, _______
-  // ),
+  [_ADJUST] = LAYOUT_split_3x5_3(
+    _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
+    _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
+    _______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
+                      _______, _______, _______,      _______, _______, _______
+  ),
 };
 
-// layer_state_t layer_state_set_user(layer_state_t state) {
-//   return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
-// }
+layer_state_t layer_state_set_user(layer_state_t state) {
+  return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
+}
